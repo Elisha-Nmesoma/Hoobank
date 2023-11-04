@@ -9,7 +9,7 @@ function Hero() {
             <div className={`flex-1 flex justify-start items-start flex-col `}>
                 <div className="flex flew-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
                     <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-                    <p className={`${styles.paragraph} ml-2 text-white`}>
+                    <p className={`${styles.paragraphcd} ml-2 text-white`}>
                         <span>20% </span>
                         <span className={`${styles.paragraph}`}>Discount For</span> {" "}
                         <span>1 Month</span> {" "}
@@ -18,7 +18,7 @@ function Hero() {
                 </div>
 
                 <div className="flex flex-row justify-between items-center w-[100%]">
-                    <h1 className={`flex-1 font-poppins font-semibold ss:text-[76px] text-[52px] text-white ss:leading-[100px] leading-[75px] ${styles.start} flex-col `}>
+                    <h1 className={`flex-1 font-poppins font-semibold  ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] ${styles.start} flex-col `}>
                         The Next
                         <br className="sm:block hidden" /> {" "}
                         <span className="text-gradient">
@@ -30,14 +30,13 @@ function Hero() {
                     </div>
                 </div>
                 <h1 className=
-                    {` font-poppins font-semibold text-left' ss:text-[65px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full ${styles.start}`}>
+                    {` font-poppins font-semibold text-left ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full flex`}>
                     Payment Method.
                 </h1>
                 <p className={`${styles.paragraph} max-width-[470px] mt-5`}>
-                    Our team of experts uses a methodology to identify
-                    <br />
-                    the credit cards most likely to fit your needs. We
-                    <br /> examine annual percentage rates, annual fees.
+                    Our team of experts uses a methodology to identify <br className="hidden ss:block" />
+                    the credit cards most likely to fit your needs. We <br className="hidden ss:block" /> 
+                    examine annual percentage rates, annual fees.
                 </p>
             </div>
             <div className={`flex-1 ${styles.flexCenter} md:my-0 my-10 relative `}>

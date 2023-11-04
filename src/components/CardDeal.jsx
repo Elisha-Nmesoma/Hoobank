@@ -11,10 +11,10 @@ function CardDeal() {
                     in few easy steps
                 </h2>
                 <p className={`${styles.paragraph}`}>
-                    We've been researching and comparing credit <br />
-                    cards for over 15 years. You can easily compare <br />
-                    more than 270 Australian credit cards using our free <br />
-                    tools. When you find one that suits, we'll take you <br />
+                    We've been researching and comparing credit <br className="hidden ss:block" />
+                    cards for over 15 years. You can easily compare <br className="hidden ss:block" />
+                    more than 270 Australian credit cards using our free <br className="hidden ss:block" />
+                    tools. When you find one that suits, we'll take you <br className="hidden ss:block" />
                     securely to the bank's website.
                 </p>
                 <Button />

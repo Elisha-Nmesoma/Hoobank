@@ -15,9 +15,9 @@ function Billing() {
                     billing & invoicing.
                 </h2>
                 <p className={`${styles.paragraph} `}>
-                    We consider the payment methods you'll offer your <br />
-                    customers when you start your business. This is an <br />
-                    important part of managing your business cash <br />
+                    We consider the payment methods you'll offer your <br className="hidden ss:block" />
+                    customers when you start your business. This is an <br className="hidden ss:block" />
+                    important part of managing your business cash <br className="hidden ss:block" />
                     flow and meeting your customer's needs.
                 </p>
                 <div className={`${styles.flexCenter} gap-10  sm:pt-10 pt-4 `}>

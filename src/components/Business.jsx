@@ -12,9 +12,9 @@ function Business() {
                     we'll handle the money.
                 </h2>
                 <p className={`${styles.paragraph}`}>
-                    With the right credit card, you can improve your <br />
-                    financial life by building credit, earning rewards and <br />
-                    saving money. But with hundreds of credit cards on <br />
+                    With the right credit card, you can improve your <br className="hidden ss:block" />
+                    financial life by building credit, earning rewards and <br className="hidden ss:block" />
+                    saving money. But with hundreds of credit cards on <br className="hidden ss:block" />
                     the market.
                 </p>
                 <Button />
